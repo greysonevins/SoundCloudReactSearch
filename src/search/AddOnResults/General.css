@@ -1,0 +1,92 @@
+.table-striped thead {
+  color: #ff7700;
+  width: 97%;
+}
+.table-striped tbody {
+  height: 230px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-striped thead, .table-striped tbody, .table-striped tr, .table-striped td, .table-striped th {
+  display: block;
+}
+.table-striped tbody td, .table-striped thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+
+.table-striped td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#songs .table-striped td {
+  max-width: 400px;
+}
+.table-striped tr:hover> td {
+  background:#ff7700;
+  color:#f2f2f2;
+}
+
+.table-striped>tbody>tr:striped>td, .table-striped>tbody>tr:striped>th {
+  background-color: #ff7700;
+  color:#ecf0f1;
+}
+
+.jumbotron {
+  background-color: f2f2f2;
+  color: #ff7700;
+}
+
+.jumbotron h1 {
+  background:#ff7700;
+  color:#f2f2f2;
+}
+
+.btn-group>a {
+  background:#ff7700;
+  color:#f2f2f2;
+
+}
+
+.btn-group> .btn.active, .btn:hover {
+  background: #7f7f7f;
+  color:#f2f2f2;
+}
+
+ul.list-group li {
+  background: #333;
+  color: white;
+
+}
+ul.list-group .list-group-item:hover{
+  background: #474646;
+  color: white;
+}
+
+ul.list-group .list-group-item.active, .list-group-item.active:hover  {
+  background: #727272;
+  color: #cccccc;
+
+}
+input[type = "text"] {
+  background: #f2f2f2;
+}
+input[type = "text"]:focus {
+  background: white;
+  border-color: #ff7700;
+  box-shadow: #7f7f7f;
+}
+
+a {
+  color: #ff7700;
+}
+
+a:hover {
+  color: #ff7d0c;
+}
+
+input.placeholder {
+  color: blue
+}
