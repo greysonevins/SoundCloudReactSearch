@@ -1,7 +1,7 @@
 # SoundCloud Search Tracks README
 
 ## Getting Started--Setup
-[This application is a modification and developed on Facebook's NPM toolkit `npm create-react-app`](https://github.com/facebookincubator/create-react-ap)
+[This application is a modification and developed on Facebook's NPM toolkit `npm create-react-app`](https://github.com/facebookincubator/create-react-app)
 
 1. In your terminal, find project folder and run `npm install` or `npm i ` to download node_modules associated with this project
 
